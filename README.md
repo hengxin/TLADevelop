@@ -95,3 +95,16 @@
   - *NewSpecWizard*: 
   - *NewSpecWizardPage*
 #### UTIL(工具包)
+  - Compare(比较方法)
+    - *MarkerComparator*: IMaker比较
+    - *ResourceNameComparator*: 根据命名比较
+    - *SpecComparator*: 根据修改时间对spec进行排序
+  - E4
+    - *E4HandlerWrapper*: E4(?) handle 
+  - Pref
+    - *IPreferenceConstants*: 一些与preference有关的常量的定义
+    - *PreferenceInitializer*: 上述常量的初始化动作
+    - *PreferenceStoreHelper*: 为每个文件存储上述常量的设置
+    - *ResourceBasedPrefernceStore*: 
+    - *UnwantedPreferenceManger*: pref管理需求
+  - *AdapterFactory*: 
