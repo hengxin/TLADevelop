@@ -9,12 +9,19 @@
 - [ ] **command**和**handler**机制
 
 - [ ] **Eclipse RCP**
+  - 涉及的核心组件
+    - SWT(Standard Widget Toolkit)用户组件交互库
+    - JFace: 在SWT的基础上对一些控件进行分装
+    - 
+
+- [ ] **Maven**管理和构建项目
 
 --**WindowBuilder神器**--
 
 ## SourceCode
 
 - [TOOLBOX](###TOOLBOX)
+- [DOC](###DOC)
 
 ### TOOLBOX
 
@@ -150,5 +157,13 @@
   - ***UIHelper***: 处理RCP对象
 - *AbstractTLCActivator*:
 - *Activator*:
-- *OpenFileManager*:
+- *OpenFileManager*: openFileManager 监听器
 - *ToolboxDirectoryVistor*:
+  
+### DOC
+
+- handler(句柄)
+  - *HelpContentsHandler*: 
+  - *HelpPDFHandler*: 
+  - *HelpURLHandler*: 
+- *HelpActivator*:

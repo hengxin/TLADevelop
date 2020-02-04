@@ -31,10 +31,11 @@ TLC实现了Standard MBeans([TLCStandardMBean](https://github.com/tlaplus/tlaplu
 ## 使用方法
 
 1. 使用Toolbox运行模型检验实验
-2. 打开JMC, 此时JMX将自动连上运行toolbox的JVM并且进行检测管理(左侧JVM浏览器中的tlc2.TLC), 打开其中的MBean服务器
-          ![fig](./fig/tlc2.TLC.PNG)
+2. 打开JMC, 此时JMX将自动连上运行toolbox的JVM并且进行检测管理(左侧JVM浏览器中的tlc2.TLC), 打开其中的MBean服务器          
+![fig](./fig/tlc2.TLC.PNG)
+
 3. MBeans服务器中有TLC已经实现的方法, tlc2.tool及tlc2.tool.fp. 在tlc2.tool中我们能够使用上述提到的五个方法, 包括暂停功能, 点击并执行就能实现TLC的暂停.
-   ![fig](./fig/suspend.PNG)
+![fig](./fig/suspend.PNG)
 
 ## TODO
 - [ ] 编写脚本使用JMX管理正在运行的TLC程序, 而不是通过JMC进行控制.
