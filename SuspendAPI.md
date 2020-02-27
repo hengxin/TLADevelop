@@ -37,7 +37,7 @@ TLC实现了Standard MBeans([TLCStandardMBean](https://github.com/tlaplus/tlaplu
 3. MBeans服务器中有TLC已经实现的方法, tlc2.tool及tlc2.tool.fp. 在tlc2.tool中我们能够使用上述提到的五个方法, 包括暂停功能, 点击并执行就能实现TLC的暂停.
 ![fig](./fig/suspend.PNG)
 
-## TODO
-- [ ] 编写脚本使用JMX管理正在运行的TLC程序, 而不是通过JMC进行控制.
-- [ ] 暂停后如何获取当前的所有状态以及可执行的动作?
-- [ ] 点击选定的动作后如何使得程序执行该选定的动作?
+~~## TODO~~
+~~- 编写脚本使用JMX管理正在运行的TLC程序, 而不是通过JMC进行控制.~~
+~~- 暂停后如何获取当前的所有状态以及可执行的动作?~~
+~~- 点击选定的动作后如何使得程序执行该选定的动作?~~
